@@ -1,12 +1,13 @@
 import "../../Component/Travel/NavBar/NavBar.css";
 
 import { TiPlus } from "react-icons/ti";
-
+// create a array of the top button//
 const btns = ["Round Trip", "One Way", "Multi Trip"];
 
 const Btns = () => {
   return (
     <div className="text-center flex gap-2 mt-10 justify-center pb-1">
+          {/* create a loop of this  button and show this button item */}
       {btns.map((btn, i) => (
         <button
           key={i}
