@@ -12,7 +12,7 @@
 * cd project_directory
 * npm install
 * npm run dev
-### repository_url:https://github.com/masum-yasin/Dhaka_Popular_Travel
+### repository_url: https://github.com/masum-yasin/Dhaka_Popular_Travel
 
 ======================================================================
 
@@ -27,8 +27,8 @@
 * React.js
 * Firebase
 
-### Live-site:https://e-learning-956b1.web.app/
-### Client-Site:https://github.com/masum-yasin/Education_Service
+### Live-site: https://e-learning-956b1.web.app/
+### Client-Site: https://github.com/masum-yasin/Education_Service
 
 ======================================================================
 
@@ -44,8 +44,8 @@ Authencation With Google Firebase Based on a simple Restaurant Food services web
 ### Live+Site: https://frosten-flame-grill.web.app/
 ### Client+Site: https://github.com/masum-yasin/react_tailwind_css/tree/main/restaurant
 ## Customer has to login when Ordering.
-### Email:restaurant@gmail.com
-### password:user123
+### Email: restaurant@gmail.com
+### password: user123
 ### It took me 15 hours to complete this task
 
 
