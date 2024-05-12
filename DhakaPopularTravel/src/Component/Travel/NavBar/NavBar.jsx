@@ -21,7 +21,7 @@ const NavBar = () => {
         <div className="container m-auto flex  h-16 navbar items-center justify-between row ">
           <div className="flex gap-10 items-center ">
             <a
-              href="https://populartravel.com.bd/about-us.html"
+              href="https://populartravel.com.bd/"
               className="btn btn-ghost text-xl"
             >
               <img className="items-center mt-3" src={travel} alt="" />

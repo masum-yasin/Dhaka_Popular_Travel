@@ -133,7 +133,7 @@ export default function Search() {
               <span className="font-bold">Enviroment</span> &nbsp;&nbsp;
               <input
                 type="radio"
-                name="radio-4"
+                name=""
                 className="radio radio-primary mt-4"
                 checked
               />{" "}
@@ -141,7 +141,7 @@ export default function Search() {
               &nbsp;&nbsp; &nbsp;
               <input
                 type="radio"
-                name="radio-4"
+                name=""
                 className="radio radio-primary mt-4"
                 checked
               />{" "}

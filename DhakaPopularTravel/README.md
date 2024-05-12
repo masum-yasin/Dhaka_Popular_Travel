@@ -48,7 +48,7 @@ Authencation With Google Firebase Based on a simple Restaurant Food services web
 ### Email: restaurant@gmail.com
 ### password: user123
 ===============================================================================
-### It took me 15 hours to complete this task
+### It took me 7 hours to complete this task
 
 
 
