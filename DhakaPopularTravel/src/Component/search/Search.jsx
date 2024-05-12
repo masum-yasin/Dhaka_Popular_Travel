@@ -7,7 +7,7 @@ const btns = ["Round Trip", "One Way", "Multi Trip"];
 const Btns = () => {
   return (
     <div className="text-center flex gap-2 mt-10 justify-center pb-1">
-          {/* create a loop of this  button and show this button item */}
+      {/* create a loop of this  button and show this button item */}
       {btns.map((btn, i) => (
         <button
           key={i}
@@ -30,9 +30,9 @@ export default function Search() {
       </div>
       <div className="container m-auto">
         <Btns />
-        <div className="border-b-4 mt-2"></div>
-        <form action="">
-          <div className="flex row mt-3">
+        <div className=""></div>
+        <form action="" className="border-b-2 border-t-2 pt-2 mt-2 pb-2">
+          <div className="flex row mt-3 justify-center">
             <div className="col-sm-1">
               <input
                 type="text"
@@ -116,15 +116,14 @@ export default function Search() {
               </select>
             </div>
             <span className="mt-3 text-center ml-2">
-          
               <TiPlus />
             </span>
           </div>
-            {/* Horizontal  */}
-            <div className="border-b-4 mt-3 text-sky-800"></div>
-            {/* Horizontal  */}
+          {/* Horizontal  */}
+          <div className="border-b-2 mt-3 text-sky-800"></div>
+          {/* Horizontal  */}
           {/* checkbox */}
-          <div className="flex gap-44 row mt-3">
+          <div className="flex gap-44 row mt-3 justify-between">
             <div className="div-col-lg-4 mt-3">
               <input type="checkbox" className="text-black-600  text-center" />{" "}
               &nbsp;<span className="font-bold">Extra Options</span>
@@ -154,10 +153,9 @@ export default function Search() {
             </div>
           </div>
         </form>
+
         {/* Horizontal  */}
-        <div className="border-b-4 mt-2"></div>
-        {/* Horizontal  */}
-        <span className="font-bold ml-44">Data Parse Successfully</span>
+        <span className="font-bold">Data Parse Successfully</span>
       </div>
     </div>
   );
