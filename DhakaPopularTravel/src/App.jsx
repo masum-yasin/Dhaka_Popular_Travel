@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import NavBar from './Component/Travel/NavBar/NavBar'
+import "./App.css";
+import NavBar from "./Component/Travel/NavBar/NavBar";
+import Table from "./Component/Travel/Table/Table";
+import Search from "./Component/search/Search";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <NavBar></NavBar>
+      <NavBar />
+      <Search />
+      <Table />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
