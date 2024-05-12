@@ -3,9 +3,9 @@
 
 ## using Technology --
 * HTML5
-* Tailwind CSS And Daisyui
+* Tailwind CSS 
 * React + vite
-======================================================================
+===============================================================================
 
 ## Follow these steps to smoothly run the React project on your local server directly from its GitHub repository
 * git clone repository_url
